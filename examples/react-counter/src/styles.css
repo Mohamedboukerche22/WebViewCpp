@@ -1,0 +1,37 @@
+:root {
+  color-scheme: dark;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: #0e1014; color: #e8ebf2; }
+.app { max-width: 780px; margin: 0 auto; padding: 1.75rem; display: grid; gap: 1.1rem; }
+header { display: flex; align-items: baseline; gap: 0.75rem; }
+h1 { margin: 0; font-size: 1.7rem; }
+h2 { margin: 0 0 0.6rem; font-size: 1.05rem; color: #c7cede; }
+.badge {
+  font-size: 0.75rem; color: #7dd3fc; background: #0c2433;
+  border: 1px solid #18455e; border-radius: 999px; padding: 0.15rem 0.6rem;
+}
+.card { background: #161a22; border: 1px solid #242b38; border-radius: 12px; padding: 1rem 1.15rem; }
+.row { display: flex; align-items: center; gap: 0.6rem; }
+.counter { font-size: 1.6rem; font-variant-numeric: tabular-nums; min-width: 3ch; text-align: center; }
+button {
+  background: #2d6cf6; color: white; border: 0; border-radius: 8px;
+  padding: 0.5rem 0.9rem; font-size: 0.9rem; cursor: pointer;
+}
+button:hover { background: #1f57d6; }
+button.active { background: #3b82f6; outline: 2px solid #93c5fd; }
+.tabs { display: flex; gap: 0.4rem; }
+.tabs button { background: #1d2431; color: #aab3c5; }
+.tabs button.active { background: #2d6cf6; color: white; }
+.kv { display: grid; grid-template-columns: 9rem 1fr; gap: 0.2rem 1rem; margin: 0 0 0.8rem; }
+.kv div { display: contents; }
+.kv dt { color: #8b93a7; }
+.kv dd { margin: 0; font-family: ui-monospace, monospace; font-size: 0.85rem; word-break: break-all; }
+pre {
+  background: #0b0d11; border: 1px solid #242b38; border-radius: 8px;
+  padding: 0.75rem; overflow: auto; max-height: 260px;
+  font-size: 0.82rem; white-space: pre-wrap; word-break: break-word;
+}
+.result { color: #4ade80; }
+.dim { color: #6b7488; }

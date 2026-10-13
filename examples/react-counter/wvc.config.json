@@ -1,0 +1,31 @@
+{
+  "name": "React Counter",
+  "identifier": "dev.webviewcpp.reactcounter",
+  "version": "0.1.0",
+  "binaryName": "react-counter",
+  "embed": true,
+  "compress": true,
+  "window": {
+    "width": 900,
+    "height": 680,
+    "minWidth": 520,
+    "minHeight": 420,
+    "title": "React Counter",
+    "resizable": true,
+    "frameless": false,
+    "devtools": true
+  },
+  "frontend": {
+    "root": ".",
+    "dist": "dist",
+    "install": "npm install",
+    "build": "npm run build",
+    "dev": "npm run dev",
+    "devUrl": "http://localhost:5173"
+  },
+  "package": {
+    "category": "Development",
+    "icon": "",
+    "extraFiles": []
+  }
+}
